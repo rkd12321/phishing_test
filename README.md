@@ -53,7 +53,6 @@ tail -f nohup.out
 ```
 
 ## 2. 피싱 공격자 메일 생성 AWS WorkMail 만들기
----
 참고 URL
 #### AWS WorkMail 생성 https://qiita.com/sugimount-a/items/bf53ddfb1478d3fa0f23
 #### AWS WorkMail SMTP 설정 https://qiita.com/sugimount-a/items/e148731f56e7dd6a7fe8
