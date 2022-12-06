@@ -56,12 +56,6 @@ tail -f nohup.out
 ### 1) 참고 URL
 #### - AWS WorkMail 생성 https://qiita.com/sugimount-a/items/bf53ddfb1478d3fa0f23
 #### - AWS WorkMail SMTP 설정 https://qiita.com/sugimount-a/items/e148731f56e7dd6a7fe8
-
-
-
-
-
-      
-    
-
-
+### 2) SMTP 서버 설정시 참고할 사항
+#### - gophish 설치한 서버에 AWS workmail의 smtp 서버 설정하면 아래와 같이 설정 시 간편함
+![send_profile_edit](https://user-images.githubusercontent.com/95232424/205928317-64a93370-9843-426f-bf0d-bb2e7c47f3c0.png)
