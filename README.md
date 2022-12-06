@@ -29,7 +29,7 @@ build
 #### - 수정 후
 ```json
 "admin_server": {
-		"listen_url": "0.0.0.0:3333", # EC2에 설치하므로 외부에서 오픈되어야 하며, ACL은 보안그룹으로 제어
+		"listen_url": "0.0.0.0:3333", # EC2에 설치하므로 외부 오픈 필요 ACL은 보안그룹 사용
 		"use_tls": true,
 		"cert_path": "gophish_admin.crt",
 		"key_path": "gophish_admin.key",
