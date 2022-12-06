@@ -1,9 +1,10 @@
 # phishing_test
 AWS workmail, gophish를 사용한 피싱메일훈련 테스트
-
+Amazon Linux2 기준
+---
 ## 1. gophish Install(https://github.com/gophish/gophish)   
 
-Amazon Linux2 기준
+
 
 
 ```
