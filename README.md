@@ -1,7 +1,7 @@
 # phishing_test
 AWS workmail, gophish를 사용한 피싱메일훈련 테스트
 
-## 1. ([gophish Install](https://github.com/gophish/gophish))
+## 1. [gophish Install](https://github.com/gophish/gophish)
 
 ### 1) Amazon Linux2 기준 gophish 설치
 ---
@@ -14,7 +14,7 @@ git clone https://github.com/gophish/gophish.git
 cd gophish 
 build
 ```
-### 2) ([gophish config.json 수정](https://github.com/gophish/gophish/blob/master/config.json))
+### 2) [gophish config.json 수정](https://github.com/gophish/gophish/blob/master/config.json)
 ---
 #### - 수정 전
 ```json
@@ -54,13 +54,13 @@ tail -f nohup.out
 
 ## 2. 피싱 공격자 메일 생성 AWS WorkMail 만들기
 ### 1) AWS Workmail을 사용하는 이유
-#### - 기본제공하는 도메인을 사용하여 SMTP 발송 시 24시간 기준 200건 발송 가능 (Gmail의 경우, 100건) ([AWS Worksmail 할당량](https://docs.aws.amazon.com/ko_kr/workmail/latest/adminguide/workmail_limits.html)) 
+#### - 기본제공하는 도메인을 사용하여 SMTP 발송 시 24시간 기준 200건 발송 가능 (Gmail의 경우, 100건) [AWS Worksmail 할당량](https://docs.aws.amazon.com/ko_kr/workmail/latest/adminguide/workmail_limits.html) 
 #### - Route53을 사용하여 도메인 설정이 간편함
 #### - 첫 사용시 30일간 25개 계정까지 무료
 
 ### 2) 참고 URL
-#### - ([AWS Workmail 생성](https://qiita.com/sugimount-a/items/bf53ddfb1478d3fa0f23))
-#### - ([AWS Workmail SMTP 설정](https://qiita.com/sugimount-a/items/e148731f56e7dd6a7fe8))
+#### - [AWS Workmail 생성](https://qiita.com/sugimount-a/items/bf53ddfb1478d3fa0f23)
+#### - [AWS Workmail SMTP 설정](https://qiita.com/sugimount-a/items/e148731f56e7dd6a7fe8)
 ### 3) SMTP 서버 설정시 참고할 사항
 #### - gophish 설치한 서버에 AWS Workmail의 smtp 서버 설정하면 아래와 같이 설정 시 간편함
 ![send_profile_edit](https://user-images.githubusercontent.com/95232424/205928317-64a93370-9843-426f-bf0d-bb2e7c47f3c0.png)
