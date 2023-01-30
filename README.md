@@ -7,10 +7,10 @@ AWS workmail, gophish를 사용한 피싱메일훈련 테스트
 ---
 
 
-```
-sudo yum install git
-sudo yum install golang
-git clone https://github.com/gophish/gophish.git
+```bash
+sudo yum install git # git 설치
+sudo yum install golang # go 설치 
+git clone https://github.com/gophish/gophish.git # gophish 다운로드
 cd gophish 
 build
 ```
