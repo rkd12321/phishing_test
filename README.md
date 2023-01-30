@@ -40,15 +40,15 @@ build
 ### 3) gophish 실행
 ---
 #### - 일반 실행 시 
-```
+```bash
 ./gophish
 ```
 #### - 상시 실행 시 백그라운드 실행
-```
+```bash
 nohup ./gophish &
 ```
 #### - 백그라운드 실행 후 초기 ID/PW 확인
-```
+```bash
 tail -f nohup.out
 ```
 
